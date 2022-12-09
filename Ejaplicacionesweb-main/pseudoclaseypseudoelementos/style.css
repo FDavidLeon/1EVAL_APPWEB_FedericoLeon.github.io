@@ -1,0 +1,9 @@
+header{
+    color: blueviolet;
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    background-color: blueviolet;
+}

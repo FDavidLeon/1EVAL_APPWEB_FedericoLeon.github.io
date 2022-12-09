@@ -1,0 +1,13 @@
+ul{
+    list-style-image: url("img/daredevil.png");
+}
+ol{
+    list-style-type: upper-roman;
+}
+dt.personalizado{
+    background-color: turquoise;
+    border-color: teal;
+    border-style: solid;
+    border-width: 2px;
+    padding: 5px;
+}

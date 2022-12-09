@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend><h1>Datos Personales</h1></legend>
+        <form action="formulario.php" method="post">
+            <p>Nombre:<input type="text" name="nombre" size="40"> </p>
+
+
+            <p>Contraseña:<input type="password" name="nombre"
+                 size="40"> </p>
+
+            <p>Correo <input type="email" name="correo"></p>
+            <p>Año Nacimiento<input type="number" name="año" min="1900" max="2022"> </p>
+
+
+            <p>Deportes: Fútbol<input type="checkbox" name="Futbol"> Baloncesto <input type="checkbox"
+                    name="Baloncesto"></p>
+            <p>Foto DNI<input type="file" name="fotodni"> </p>
+            <p>Comentario:<textarea name="comentario" id="comentario" cols="20" rows="1"
+                    placeholder="Escribe tus comentarios"></textarea></p>
+            <p>Mejor superheroe <select name="mejor superheroe">
+
+                    <option>-</option>
+                    <option>Daredevil</option>
+                    <option>Matt Murdock</option>
+                    <option>Un buen abogado</option>
+                    <option>Spider-Ham</option>
+                </select></p>
+
+
+            <p> <button><img src="/Formularios/descarga (1).jpeg"></button></p>
+    </fieldset>
+    <input type="submit" name="enviar">
+    <input type="reset" name="reset">
+
+    </form>
+
+</body>
+
+</html>
